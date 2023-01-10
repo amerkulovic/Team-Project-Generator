@@ -144,7 +144,7 @@ function createTeam() {
         const parseHTML = generateHTML(team);
 
         // Write to File
-        fs.writeFile("team.html", parseHTML, (err) => (err ? console.error(err) : console.log("Success!")));
+        fs.writeFile("index.html", parseHTML, (err) => (err ? console.error(err) : console.log("Success!")));
       }
     });
 }

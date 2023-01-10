@@ -18,4 +18,4 @@ This application allows you to create a team of a Manager, Engineers, and Intern
 
 ## Link
 
-[Team Generator](https://amerkulovic.github.io/Weather-Dashboard/)
+[Team Generator](https://amerkulovic.github.io/Team-Project-Generator/)
