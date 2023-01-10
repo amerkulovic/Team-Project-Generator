@@ -6,9 +6,9 @@
 // Select Finish
 // Generate HTML File
 const inquirer = require("inquirer");
-const Manager = require("./team-profile-maker/lib/Manager");
-const Engineer = require("./team-profile-maker/lib/Engineer");
-const Intern = require("./team-profile-maker/lib/Intern");
+const Manager = require("./lib/Manager");
+const Engineer = require("./lib/Engineer");
+const Intern = require("./lib/Intern");
 const fs = require("fs");
 const team = [];
 
