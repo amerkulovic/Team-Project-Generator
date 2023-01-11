@@ -154,7 +154,7 @@ const generateHTML = (team) => {
 <h3 class= "employee-name">${team[0].getName()} </h3>
 <h4 class="title">Manager</h4>
 <div>ID: ${team[0].getId()} </div>
-<div>Email: ${team[0].getEmail()} </div>
+<div><a href = "mailto: ${team[0].getEmail()}">${team[0].getEmail()}</a></div>
 <div>Office Number: ${team[0].getOfficeNumber()} </div> 
 </div>`;
 
@@ -167,7 +167,7 @@ const generateHTML = (team) => {
 <h3 class= "employee-name">${engineer.getName()} </h3>
 <h4 class="title">Engineer</h4>
 <div>ID: ${engineer.getId()} </div>
-<div>Email: ${engineer.getEmail()} </div>
+<div><a href = "mailto: ${engineer.getEmail()}">${engineer.getEmail()} </a></div>
 <div>Github: <a href="https://github.com/${engineer.getGithub()}" target="_blank"> ${engineer.getGithub()} </a> </div>
 </div>`;
   });
@@ -181,7 +181,7 @@ const generateHTML = (team) => {
 <h3 class= "employee-name">${intern.getName()} </h3>
 <h4 class="title">Intern</h4>
 <div>ID: ${intern.getId()} </div>
-<div>Email: ${intern.getEmail()} </div>
+<div><a href = "mailto: ${intern.getEmail()}">${intern.getEmail()} </a></div>
 <div>School: ${intern.getSchool()} </div>
 </div>`;
   });
